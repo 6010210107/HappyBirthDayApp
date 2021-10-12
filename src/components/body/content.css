@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+.container {
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen-height-100{
+    min-height: 100vh;
+}
+
+.screen-height-50{
+    min-height: 50vh;
+}
+
+.screen-height-25{
+    min-height: 25vh;
+}
+
+
+h3,h4,h5,h6,h1,h2 {
+    font-family: 'Sriracha', cursive;
+    max-width: 75vw;
+    color:rgb(73, 73, 73)
+
+}
+
+.container h1{
+    margin:3rem 0;
+}
+
+.bold {
+    font-weight: 900;
+}
+.thin{
+    font-weight: 300;
+}
+
+.large {
+    font-size: 3rem;
+}
